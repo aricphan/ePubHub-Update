@@ -1,5 +1,5 @@
 {
-  "versionCode": 12,
+  "versionCode": 11,
   "versionName": "1.0.1",
   "updateUrl": "https://github.com/aricphan/ePubHub-Update/releases/download/v1.0.1/app-release.apk",
   "changelog": "Sửa lỗi crash và cải thiện giao diện."
