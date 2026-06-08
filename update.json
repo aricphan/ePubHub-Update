@@ -2,5 +2,6 @@
   "versionCode": 12,
   "versionName": "1.0.1",
   "updateUrl": "https://github.com/aricphan/ePubHub-Update/releases/download/v1.0.1/app-debug.apk",
-  "changelog": "Sửa lỗi crash và cải thiện giao diện."
+  "changelog": "Bản cập nhật quan trọng!",
+  "isForceUpdate": "yes" 
 }
