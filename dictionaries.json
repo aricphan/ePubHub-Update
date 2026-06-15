@@ -250,12 +250,6 @@
         "matchMode": "EXACT"
       },
       {
-        "pattern": "\\bAI\\b",
-        "replacement": "ây ai",
-        "isIgnoreCase": true,
-        "matchMode": "REGEX"
-      },
-      {
         "pattern": "\\bNPC\\b",
         "replacement": "en pi xi",
         "isIgnoreCase": true,
@@ -275,7 +269,7 @@
       },
       {
         "pattern": "\\bEXP\\b",
-        "replacement": "ích x pê",
+        "replacement": "kinh nghiệm",
         "isIgnoreCase": true,
         "matchMode": "REGEX"
       },
@@ -293,7 +287,7 @@
       },
       {
         "pattern": "\\bLV\\b",
-        "replacement": "lờ vờ",
+        "replacement": "le vờ",
         "isIgnoreCase": true,
         "matchMode": "REGEX"
       },
