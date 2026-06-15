@@ -1,0 +1,607 @@
+[
+  {
+    "name": "01 - Web, link, email",
+    "rules": [
+      {
+        "pattern": "https?:\/\/\\S+",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "www\\.\\S+",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?:https?:\/\/)?(?:www\\.)?[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)+(?:\/[^\\s]*)?",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}\\b",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      }
+    ]
+  },
+  {
+    "name": "02 - Nguồn, quảng cáo, dòng rác web truyện",
+    "rules": [
+      {
+        "pattern": "\\b(?:Nguồn|Source)\\s*[:：].*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(?:Convert|Converter|Dịch|Biên tập|Editor|Upload|Đăng bởi)\\s*[:：].*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*(?:ủng hộ|like|share|subscribe|đăng ký|theo dõi).*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      }
+    ]
+  },
+  {
+    "name": "03 - Tiêu đề chương\/quyển\/tập",
+    "rules": [
+      {
+        "pattern": "(?im)^\\s*Chương\\s*\\d+\\s*[:：,.-]?\\s*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Chương\\s*\\d+\\s*[:：,.-]\\s*.+$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Chương\\s+[IVXLCDM]+\\s*[:：,.-]?\\s*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Chương\\s+[IVXLCDM]+\\s*[:：,.-]\\s*.+$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Quyển\\s*\\d+\\s*[:：,.-]?\\s*.*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Tập\\s*\\d+\\s*[:：,.-]?\\s*.*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Phần\\s*\\d+\\s*[:：,.-]?\\s*.*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*第\\s*\\d+\\s*章.*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      }
+    ]
+  },
+  {
+    "name": "04 - Metadata truyện",
+    "rules": [
+      {
+        "pattern": "(?im)^\\s*Tác\\s*giả\\s*[:：,].*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Thể\\s*loại\\s*[:：,].*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Trạng\\s*thái\\s*[:：,].*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Phân\\s*loại\\s*[:：,].*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Thời\\s*gian\\s*(?:đổi\\s*mới|cập\\s*nhật)\\s*[:：,].*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Tác giả,\\s*(.+?)\\s*phân loại,\\s*(.+?)\\s*thời gian đổi mới,\\s*(.+)\\.?$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\d{4}\\s*-\\s*\\d{2}\\s*-\\s*\\d{2}",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?im)^\\s*Thứ\\s+\\d+.+$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      }
+    ]
+  },
+  {
+    "name": "05 - Ký tự rác và xuống dòng",
+    "rules": [
+      {
+        "pattern": "-----------------------------------------------",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "----------------------------------------",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "[-=_]{5,}",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[·•●◆◇■□▲△▼▽★☆]{1,}",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[⊥]{1,}",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "#{2,}",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?m)^\\s*[,.，。;；:：!?！？]\\s*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?m)^\\s*.\\s*$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "(?m)^\\s*,",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\s{2,}",
+        "replacement": " ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\n{3,}",
+        "replacement": "\n\n",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      }
+    ]
+  },
+  {
+    "name": "06 - Chuẩn hóa TTS cơ bản",
+    "rules": [
+      {
+        "pattern": "&",
+        "replacement": " và ",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "@",
+        "replacement": " a còng ",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "%",
+        "replacement": " phần trăm ",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "\\bAI\\b",
+        "replacement": "ây ai",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bNPC\\b",
+        "replacement": "en pi xi",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bPK\\b",
+        "replacement": "pê ca",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bVIP\\b",
+        "replacement": "víp",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bEXP\\b",
+        "replacement": "ích x pê",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bHP\\b",
+        "replacement": "hát pê",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bMP\\b",
+        "replacement": "em pê",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bLV\\b",
+        "replacement": "lờ vờ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bLv\\.?\\s*(\\d+)",
+        "replacement": "cấp $1",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bLevel\\s*(\\d+)",
+        "replacement": "cấp $1",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      }
+    ]
+  },
+  {
+    "name": "07 - ONNX tiếng Việt - đọc mượt hơn",
+    "rules": [
+      {
+        "pattern": "(^|[.!?…]\\s+)(?=(?:ngh|gh|qu)[a-zà-ỹ])",
+        "replacement": "$1ờ ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[“”„‟«»]",
+        "replacement": "\"",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[‘’‚‛]",
+        "replacement": "'",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[…]+",
+        "replacement": ".",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[—–―]+",
+        "replacement": ", ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[;；]+",
+        "replacement": ", ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[:：]+",
+        "replacement": ", ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[!！]{2,}",
+        "replacement": "!",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "[?？]{2,}",
+        "replacement": "?",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "([,.!?])\\s*\\1+",
+        "replacement": "$1",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\s+([,.!?])",
+        "replacement": "$1",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "([,.!?])(?=\\S)",
+        "replacement": "$1 ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "&",
+        "replacement": " và ",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "\\+",
+        "replacement": " cộng ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "=",
+        "replacement": " bằng ",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "%",
+        "replacement": " phần trăm ",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "℃",
+        "replacement": " độ xê ",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "°C",
+        "replacement": " độ xê ",
+        "isIgnoreCase": true,
+        "matchMode": "EXACT"
+      },
+      {
+        "pattern": "\\b(\\d+)\\s*\/\\s*(\\d+)\\b",
+        "replacement": "$1 trên $2",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bTP\\.?\\s*HCM\\b",
+        "replacement": "thành phố hồ chí minh",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bTP\\.\\b",
+        "replacement": "thành phố",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bHN\\b",
+        "replacement": "hà nội",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bVN\\b",
+        "replacement": "việt nam",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bTQ\\b",
+        "replacement": "trung quốc",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bHĐQT\\b",
+        "replacement": "hội đồng quản trị",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bCMND\\b",
+        "replacement": "chứng minh nhân dân",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bCCCD\\b",
+        "replacement": "căn cước công dân",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bUSD\\b",
+        "replacement": "đô la mỹ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bVND\\b",
+        "replacement": "việt nam đồng",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bAI\\b",
+        "replacement": "ây ai",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bCPU\\b",
+        "replacement": "xi pi diu",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bGPU\\b",
+        "replacement": "ji pi diu",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bRAM\\b",
+        "replacement": "ram",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bONNX\\b",
+        "replacement": "on ních",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bTTS\\b",
+        "replacement": "ti ti ét",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bAPI\\b",
+        "replacement": "ây pi ai",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\bAPK\\b",
+        "replacement": "ây pi kê",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(\\d+(?:[.,]\\d+)?)\\s*km\\b",
+        "replacement": "$1 ki lô mét",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(\\d+(?:[.,]\\d+)?)\\s*m\\b",
+        "replacement": "$1 mét",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(\\d+(?:[.,]\\d+)?)\\s*cm\\b",
+        "replacement": "$1 xen ti mét",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(\\d+(?:[.,]\\d+)?)\\s*mm\\b",
+        "replacement": "$1 mi li mét",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(\\d+(?:[.,]\\d+)?)\\s*kg\\b",
+        "replacement": "$1 ki lô gam",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(\\d+(?:[.,]\\d+)?)\\s*g\\b",
+        "replacement": "$1 gam",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(\\d+(?:[.,]\\d+)?)\\s*GB\\b",
+        "replacement": "$1 ghi ga bai",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(\\d+(?:[.,]\\d+)?)\\s*MB\\b",
+        "replacement": "$1 mê ga bai",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\b(\\d+(?:[.,]\\d+)?)\\s*KB\\b",
+        "replacement": "$1 ki lô bai",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "\\s{2,}",
+        "replacement": " ",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      },
+      {
+        "pattern": "^\\s+|\\s+$",
+        "replacement": "",
+        "isIgnoreCase": true,
+        "matchMode": "REGEX"
+      }
+    ]
+  }
+]
