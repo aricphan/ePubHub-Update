@@ -1,0 +1,97 @@
+        [
+          {
+            "name": "Adam",
+            "file": "adam.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/adam.onnx"
+          },
+		            {
+            "name": "Ban Mai",
+            "file": "ban-mai.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/ban-mai.onnx"
+          },
+		            {
+            "name": "Calm",
+            "file": "calm-woman.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/calm-woman.onnx"
+          },
+		            {
+            "name": "Chiêu Thành",
+            "file": "chieu-thanh.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/chieu-thanh.onnx"
+          },
+		            {
+            "name": "Deep",
+            "file": "deep-man.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/deep-man.onnx"
+          },
+		            {
+            "name": "Lạc Phi",
+            "file": "lac-phi.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/lac-phi.onnx"
+          },
+		            {
+            "name": "Mai Phương",
+            "file": "mai-phuong.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/mai-phuong.onnx"
+          },
+		            {
+            "name": "Mạnh Dũng",
+            "file": "manh-dung.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/manh-dung.onnx"
+          },
+		            {
+            "name": "Minh Khang",
+            "file": "minh-khang.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/minh-khang.onnx"
+          },
+		            {
+            "name": "Minh Quang",
+            "file": "minh-quang.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/minh-quang.onnx"
+          },          {
+            "name": "Ngọc Huyền",
+            "file": "ngoc-huyen.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/ngoc-huyen.onnx"
+          },
+		            {
+            "name": "Ngọc Ngạn",
+            "file": "ngoc-ngan.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/ngoc-ngan.onnx"
+          },
+		            {
+            "name": "Phương Trang",
+            "file": "phuong-trang.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/phuong-trang.onnx"
+          },
+		            {
+            "name": "Tài An",
+            "file": "tai-an.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/tai-an.onnx"
+          },
+		            {
+            "name": "Thanh Phương",
+            "file": "thanh-phuong-viettel.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/thanh-phuong-viettel.onnx"
+          },
+		            {
+            "name": "Thiên Tâm",
+            "file": "thien-tam.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/thien-tam.onnx"
+          },
+		            {
+            "name": "Trấn Thành",
+            "file": "tran-thanh.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/tran-thanh.onnx"
+          },
+		            {
+            "name": "Việt Thảo",
+            "file": "viet-thao.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/viet-thao.onnx"
+          },
+		            {
+            "name": "Yan",
+            "file": "yan-new.onnx",
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/yan-new.onnx"
+          }
+        ]
+        
