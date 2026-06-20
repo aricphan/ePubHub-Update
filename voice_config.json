@@ -2,96 +2,115 @@
           {
             "name": "Adam",
             "file": "adam.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/adam.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/adam.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Ban Mai",
             "file": "ban-mai.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/ban-mai.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/ban-mai.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Calm",
             "file": "calm-woman.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/calm-woman.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/calm-woman.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Chiêu Thành",
             "file": "chieu-thanh.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/chieu-thanh.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/chieu-thanh.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Deep",
             "file": "deep-man.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/deep-man.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/deep-man.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Lạc Phi",
             "file": "lac-phi.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/lac-phi.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/lac-phi.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Mai Phương",
             "file": "mai-phuong.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/mai-phuong.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/mai-phuong.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Mạnh Dũng",
             "file": "manh-dung.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/manh-dung.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/manh-dung.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Minh Khang",
             "file": "minh-khang.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/minh-khang.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/minh-khang.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Minh Quang",
             "file": "minh-quang.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/minh-quang.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/minh-quang.onnx",
+			"cutMs": "200"
           },          {
             "name": "Ngọc Huyền",
             "file": "ngoc-huyen.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/ngoc-huyen.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/ngoc-huyen.onnx",
+			"cutMs": "220"
           },
 		            {
             "name": "Ngọc Ngạn",
             "file": "ngoc-ngan.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/ngoc-ngan.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/ngoc-ngan.onnx",
+			"cutMs": "230"
           },
 		            {
             "name": "Phương Trang",
             "file": "phuong-trang.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/phuong-trang.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/phuong-trang.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Tài An",
             "file": "tai-an.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/tai-an.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/tai-an.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Thanh Phương",
             "file": "thanh-phuong-viettel.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/thanh-phuong-viettel.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/thanh-phuong-viettel.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Thiên Tâm",
             "file": "thien-tam.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/thien-tam.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/thien-tam.onnx",
+			"cutMs": "250"
           },
 		            {
             "name": "Trấn Thành",
             "file": "tran-thanh.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/tran-thanh.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/tran-thanh.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Việt Thảo",
             "file": "viet-thao.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/viet-thao.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/viet-thao.onnx",
+			"cutMs": "200"
           },
 		            {
             "name": "Yan",
             "file": "yan-new.onnx",
-            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/yan-new.onnx"
+            "url": "https://raw.githubusercontent.com/aricphan/onnxvoice/main/assets/yan-new.onnx",
+			"cutMs": "220"
           }
         ]
         
