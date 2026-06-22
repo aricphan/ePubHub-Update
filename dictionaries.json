@@ -486,7 +486,7 @@
         "pattern": "\\bAI\\b",
         "replacement": "ây ai",
         "isIgnoreCase": true,
-        "matchMode": "REGEX"
+        "matchMode": "EXACT"
       },
       {
         "pattern": "\\bCPU\\b",
