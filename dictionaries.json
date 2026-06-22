@@ -309,12 +309,6 @@
     "name": "07 - ONNX tiếng Việt - đọc mượt hơn",
     "rules": [
       {
-        "pattern": "(^|[.!?…]\\s+)(?=(?:ngh|gh|qu)[a-zà-ỹ])",
-        "replacement": "$1ờ ",
-        "isIgnoreCase": true,
-        "matchMode": "REGEX"
-      },
-      {
         "pattern": "[“”„‟«»]",
         "replacement": "\"",
         "isIgnoreCase": true,
@@ -485,7 +479,7 @@
       {
         "pattern": "\\bAI\\b",
         "replacement": "ây ai",
-        "isIgnoreCase": true,
+        "isIgnoreCase": false,
         "matchMode": "EXACT"
       },
       {
